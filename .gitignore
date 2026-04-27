@@ -32,3 +32,5 @@ google-services.json
 
 # Android Profiling
 *.hprof
+# adicionado para ignorar a pasta node_modules, que é gerada pelo npm e não deve ser versionada
+node_modules  
