@@ -160,12 +160,12 @@ Obter as credenciais do Firebase
 
 ```javascript
 const firebaseConfig = {
-  apiKey: 'SUA_API_KEY',
-  authDomain: 'seu-projeto.firebaseapp.com',
-  projectId: 'seu-projeto',
-  storageBucket: 'seu-projeto.appspot.com',
-  messagingSenderId: '123456789',
-  appId: '1:123456789:web:abcdef',
+  apiKey: "SUA_API_KEY",
+  authDomain: "seu-projeto.firebaseapp.com",
+  projectId: "seu-projeto",
+  storageBucket: "seu-projeto.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "1:123456789:web:abcdef",
 };
 ```
 
@@ -174,17 +174,17 @@ Configurar o arquivo do Firebase no projeto
 - Crie o arquivo src/services/firebaseConfig.ts com o seguinte conteúdo:
 
 ```typescript
-import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: 'SUA_API_KEY',
-  authDomain: 'seu-projeto.firebaseapp.com',
-  projectId: 'seu-projeto',
-  storageBucket: 'seu-projeto.appspot.com',
-  messagingSenderId: '123456789',
-  appId: '1:123456789:web:abcdef',
+  apiKey: "SUA_API_KEY",
+  authDomain: "seu-projeto.firebaseapp.com",
+  projectId: "seu-projeto",
+  storageBucket: "seu-projeto.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "1:123456789:web:abcdef",
 };
 
 const app = initializeApp(firebaseConfig);
@@ -383,6 +383,6 @@ Projeto acadêmico – sem fins comerciais. Desenvolvido para a disciplina **Des
 
 ---
 
-**Última atualização:** Abril de 2026  
+**Última atualização:** Maio de 2026  
 **Repositório:** [https://github.com/LucasFigs/OcorrenciasCulturais](https://github.com/LucasFigs/OcorrenciasCulturais)  
 **Slogan:** _Registre sua história_
