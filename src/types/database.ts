@@ -14,3 +14,18 @@ export interface Ocorrencia {
   userId: string;
   status: 'pendente' | 'em_andamento' | 'resolvido';
 }
+export interface Avaliacao {
+  id?: string;
+  ocorrenciaId: string;
+  userId: string;
+  nota: number; // 1 a 5
+  comentario: string;
+  createdAt: Date;
+}
+
+export interface Usuario {
+  uid: string;
+  nome: string;
+  email: string;
+  role: 'admin' | 'visitante';
+}
